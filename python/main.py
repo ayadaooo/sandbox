@@ -210,12 +210,31 @@
 #         return False
 # print(is_passing(45))
 
-# numbers = 2,3,4
+# def greet_user(username):
+#     print(f"Welcome, {username}!")
+
+# greet_user("ayadaooo")
+
+
+# def is_even(number):
+#     if number % 2 == 0:
+#         return True
+#     else:
+#         return False
+# print(is_even(7))
+
+
 # def multiply_list(numbers):
-#     count = [1]
-#     multiplied *= count 
-#     return multiplied
+#     count = 1
+#     for number in numbers:
+#         count *= number
+#     return count
 
-# print(multiply_list(numbers))
+# print(multiply_list([2,3,4]))
 
+# word = ["a", "b", "c", "d", "e"]
 
+# def first_and_last(word):
+#     return [word[0], word[-1]]
+
+# print(first_and_last(word))
