@@ -179,3 +179,43 @@
     
 # print(validate_password(password))
 
+
+# def get_grade(score):
+#     if score >= 90:
+#         grade = "A"
+#     elif score >= 80:
+#         grade = "B"
+#     elif score >= 70:
+#         grade = "C"
+#     elif score >= 60:
+#         grade = "D"
+#     else:
+#         grade = "F"
+#     return(grade)
+
+# print(get_grade(85))
+    
+
+
+# def greet_user(username):
+#     print(f"Welcome {username}!")
+
+# greet_user("ayadaooo")
+
+
+# def is_passing(grade):
+#     if grade >= 50:
+#         return True
+#     else:
+#         return False
+# print(is_passing(45))
+
+# numbers = 2,3,4
+# def multiply_list(numbers):
+#     count = [1]
+#     multiplied *= count 
+#     return multiplied
+
+# print(multiply_list(numbers))
+
+
