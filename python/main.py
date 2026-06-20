@@ -211,18 +211,40 @@
 #         return False
 # print(is_passing(45))
 
-# numbers = 2,3,4
-# def multiply_list(numbers):
-#     count = [1]
-#     multiplied *= count 
-#     return multiplied
+# def greet_user(username):
+#     print(f"Welcome, {username}!")
 
-# print(multiply_list(numbers))
+# greet_user("ayadaooo")
+
+
+# def is_even(number):
+#     if number % 2 == 0:
+#         return True
+#     else:
+#         return False
+# print(is_even(7))
+
+
+# def multiply_list(numbers):
+#     count = 1
+#     for number in numbers:
+#         count *= number
+#     return count
+
+# print(multiply_list([2,3,4]))
+
+# word = ["a", "b", "c", "d", "e"]
+
+# def first_and_last(word):
+#     return [word[0], word[-1]]
+
+# print(first_and_last(word))
 
 # def square(number):
 #     square = number * number
 #     return square
 # print(square(9))
+
 
 # def is_negative(number):
 #     if number >= 0:
@@ -344,3 +366,57 @@
 #             vowel_check += 1
 #     return vowel_check
 # print(count_vowels("Mississippi"))
+
+# def square(number):
+#     total = number * number
+#     return total
+# print(square(6))
+
+# def is_positive(number):
+#     if number > 0:
+#         return True
+#     else:
+#         return False
+# print(is_positive(-3))
+
+# def count_items(items):
+#     count = 0
+#     for i in items:
+#         count += 1
+#     return count
+
+# print(count_items(["a", "b", "c", "d"]))
+
+# def repeat_string(word,a):
+#     return word * a
+# print(repeat_string("hello",3))
+
+# def celsius_to_fahrenheit(temp):
+#     return (temp * 9/5) + 32
+# print(celsius_to_fahrenheit(0))
+
+# def fizzbuzz(number):
+#     if number % 3 == 0 and number % 5 == 0:
+#         return ("FizzBuzz")
+#     if number % 3 == 0:
+#         return ("Fizz")
+#     elif number %  5 == 0:
+#         return ("Buzz")
+#     else:
+#         return (number)
+
+# print(fizzbuzz(15))
+
+# def get_initials(first_name,last_name):
+#     initials = first_name[0] + "." + last_name[0]
+#     return initials.upper()
+# print(get_initials("Adrian", "Yadao"))
+
+# def longest_word(list):
+#     longest = list[0]
+#     if len(list) > len(longest):
+    
+
+#     return longest
+# print(longest_word(["cat", "elephant", "dog", "rhinoceros"]))
+
