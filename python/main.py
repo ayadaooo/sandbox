@@ -1,3 +1,4 @@
+
 # name = input("Enter your name:")
 # print(name)
 
@@ -218,4 +219,128 @@
 
 # print(multiply_list(numbers))
 
+# def square(number):
+#     square = number * number
+#     return square
+# print(square(9))
 
+# def is_negative(number):
+#     if number >= 0:
+#         return False
+#     else:
+#         return True
+# print(is_negative(-7))
+
+# def sum_list(numbers):
+#     count = 0
+#     for number in numbers:
+#         count += number
+#     return count
+# print(sum_list([5, 10, 15, 20]))
+
+
+# def multiply_list(numbers):
+#     count = 1
+#     for number in numbers:
+#         count *= number
+#     return count
+# print(multiply_list([2, 3, 4]))
+
+# def count_vowels(word):
+#     vowels = ["a","e", "i","o","u"]
+#     count = 0
+#     for vowel in word:
+#         if vowel in vowels:
+#             count += 1
+#     return count
+
+# print(count_vowels("Adrian"))
+
+# def find_max(numbers):
+#     max_n = 0
+#     for n in numbers:
+#         if n > max_n:
+#             max_n = n
+#     return max_n
+# print(find_max([3, 7, 1, 9, 4]))
+
+# def reverse_list(numbers):
+#     reverse_numbers = []
+#     for n in range(len(numbers) -1, -1, -1,):
+#         reverse_numbers.append(numbers[n])
+#     return reverse_numbers
+
+# print(reverse_list([1, 2, 3, 4, 5]))
+
+# colors = ["red","green","blue","yellow", "pink"]
+# print(colors[2], colors[-1]colors[0])
+
+# numbers = [1,2,3,4,5]
+# count = 0
+# for n in numbers:
+#     count += n
+# print(count)
+
+# games = ["GW2", "PoE", "D2", "Warframe", "Hades"]
+# for i in range(0,len(games),2):
+#     print(games[i])
+
+# person = {"name": "Adrian", "city": "Edmonton", "age": "21"}
+# result = person.get("city", "unknown")
+# print(result)
+
+# person = {"name": "Adrian", "city": "Edmonton", "age": "21"}
+# result = person.get("city", "unknown")
+# for key,value in person.items():
+#     print(key,value)
+
+
+# def remove_duplicates(numbers):
+#     return set(numbers)
+# print(remove_duplicates([1, 2, 2, 3, 3, 3, 4]))
+
+# prices = [9.99, 15.50, 7.25, 22.00]
+# count = 0
+# for i in prices:
+#     count += i
+# print(count)
+
+# names = ["Alice", "Bob", "Charlie"]
+# ages = [25, 30, 22]
+# for i in range(len(names)):
+#     print(f'Name: {names[i]} Age: {ages[i]}')
+
+# scores = [85, 92, 78, 90, 88]
+# highest_score = 0
+# highest_position = 0
+# for i, score in enumerate(scores):
+#     if score > highest_score:
+#         highest_score = score
+#         highest_position = i
+# print(highest_score, highest_position)
+
+
+# def multiply_list(numbers):
+#     count = 1
+#     for i in numbers:
+#         count *= i
+#     return count
+# print(multiply_list([2, 3, 4]))
+
+# def find_max(numbers):
+#     max_number = 0
+#     current_number = 0
+#     for current_number in numbers:
+#         if current_number > max_number:
+#             max_number = current_number
+#     return max_number
+# print(find_max([3, 7, 1, 9, 4]))
+
+# def count_vowels(name):
+#     vowels = ["a", "e", "i", "o", "u"]
+#     vowel_check = 0
+#     for vowel in name:
+#         if vowel in vowels:
+#             vowel_check += 1
+#     return vowel_check
+# print(count_vowels("Mississippi"))
