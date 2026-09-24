@@ -1,0 +1,15 @@
+/Users/ayadao/Downloads/sandbox/c#/obj/Debug/net10.0/c#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ayadao/Downloads/sandbox/c#/obj/Debug/net10.0/c#.AssemblyInfoInputs.cache
+/Users/ayadao/Downloads/sandbox/c#/obj/Debug/net10.0/c#.AssemblyInfo.cs
+/Users/ayadao/Downloads/sandbox/c#/obj/Debug/net10.0/c#.csproj.CoreCompileInputs.cache
+/Users/ayadao/Downloads/sandbox/c#/obj/Debug/net10.0/c#.sourcelink.json
+/Users/ayadao/Downloads/sandbox/c#/bin/Debug/net10.0/c#
+/Users/ayadao/Downloads/sandbox/c#/bin/Debug/net10.0/c#.deps.json
+/Users/ayadao/Downloads/sandbox/c#/bin/Debug/net10.0/c#.runtimeconfig.json
+/Users/ayadao/Downloads/sandbox/c#/bin/Debug/net10.0/c#.dll
+/Users/ayadao/Downloads/sandbox/c#/bin/Debug/net10.0/c#.pdb
+/Users/ayadao/Downloads/sandbox/c#/obj/Debug/net10.0/c#.dll
+/Users/ayadao/Downloads/sandbox/c#/obj/Debug/net10.0/refint/c#.dll
+/Users/ayadao/Downloads/sandbox/c#/obj/Debug/net10.0/c#.pdb
+/Users/ayadao/Downloads/sandbox/c#/obj/Debug/net10.0/c#.genruntimeconfig.cache
+/Users/ayadao/Downloads/sandbox/c#/obj/Debug/net10.0/ref/c#.dll
