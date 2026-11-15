@@ -1,9 +1,13 @@
 function Lotm({ title, description,children }) {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-neutral-950">
-      <h1 className="text-4xl font-bold text-yellow-500">{title}</h1>
-      <p className="text-lg text-yellow-600">{description}</p>
-      <div className="text-xl text-white">{children}</div>
+    <div className="min-h-screen flex items-center justify-center">
+    <div data-theme="light" className="card bg-base-100 shadow-md ">
+      <div className="card-body">
+      <h1 className=" card-title">{title}</h1>
+      <p className="">{description}</p>
+      <div className="">{children}</div>
+      </div>
+    </div>
     </div>
 
   )

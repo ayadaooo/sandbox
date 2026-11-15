@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="max-w-2xl mx-auto">
+      <h1 class="text-3xl font-bold">{{ post.title }}</h1>
+      <p>{{ post.text }}</p>
+      <span class="text-sm text-gray-500">{{ post.created_date }}</span>
+
+      <h2 class="text-xl font-bold mt-6">Comments</h2>
+      {% for comment in post.comments.all %}
+      <div class="bg-white shadow rounded-xl p-4 mb-4">
+        <p>{{ comment.author_name }}: {{ comment.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
